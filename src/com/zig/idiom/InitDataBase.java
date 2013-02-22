@@ -12,6 +12,8 @@ import android.os.Bundle;
 public class InitDataBase extends Activity{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		//haha~~~
+		//just for test: does my githun configuration work well~
 		super.onCreate(savedInstanceState);
 		String dbPath = "file:///android_asset/data.db";
 		SQLiteDatabase db = SQLiteDatabase.openDatabase(dbPath, null, SQLiteDatabase.OPEN_READONLY);
